@@ -1,6 +1,17 @@
+# Python compiled files
 __pycache__/
 *.pyc
-*.log
-*.pem
+
+# Private SSH key — keep it secret bro!
 id_rsa
-.env
+
+# IDE stuff (VSCode, PyCharm, etc)
+.vscode/
+.idea/
+
+# Log files, nobody needs 'em
+*.log
+
+# Virtual env folders — too heavy, skip 'em
+venv/
+env/
